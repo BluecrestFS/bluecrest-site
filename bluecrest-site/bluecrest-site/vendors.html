@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vendors | Bluecrest Federal Support LLC</title>
+<meta name="description" content="Vendor intake and subcontractor registration.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page-shell">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><img src="assets/logo.png" alt="Bluecrest Federal Support LLC logo"></a>
+    <div class="nav">
+      <nav class="nav-links">
+        <a href="index.html" >Home</a>
+        <a href="about.html" >About</a>
+        <a href="founder.html" >Founder</a>
+        <a href="services.html" >Services</a>
+        <a href="vendors.html" class="active">Vendors</a>
+        <a href="contact.html" >Contact</a>
+      </nav>
+      <a class="quote-btn" href="contact.html">Get a Quote</a>
+    </div>
+  </div>
+</header>
+<main>
+
+<section class="page-hero">
+  <div class="container" style="text-align:center; max-width:900px;">
+    <h1>Vendor Intake Form</h1>
+    <p>Interested in partnering with Bluecrest Federal Support? Please fill out the form below to register your company in our vendor database.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="container surface form-card vendor-form">
+    <form action="https://formsubmit.co/operations@bluecrestfederalsupport.com" method="POST">
+      <input type="hidden" name="_subject" value="Bluecrest Vendor Intake Submission">
+      <input type="hidden" name="_next" value="https://bluecrestfederalsupport.com/form-success.html">
+      <input type="hidden" name="_template" value="table">
+      <input type="text" name="_honey" style="display:none">
+      <h2 class="form-section-title">🏢 Company Information</h2>
+      <div class="divider"></div>
+      <div class="form-grid">
+        <div><label>Company Name *</label><input class="input" name="Company Name" required></div>
+        <div><label>Point of Contact *</label><input class="input" name="Point of Contact" required></div>
+        <div><label>Email *</label><input class="input" type="email" name="Email" required></div>
+        <div><label>Phone</label><input class="input" name="Phone"></div>
+      </div>
+      <div style="margin-top:18px;"><label>Website</label><input class="input" name="Website" placeholder="https://"></div>
+      <div style="margin-top:18px;"><label>Address</label><textarea name="Address"></textarea></div>
+
+      <h2 class="form-section-title" style="margin-top:28px;">📄 Capabilities</h2>
+      <div class="divider"></div>
+      <div><label>Primary Services / Products *</label><textarea name="Primary Services" required placeholder="Describe your core capabilities..."></textarea></div>
+      <div style="margin-top:18px;"><label>Service Regions / Coverage</label><textarea name="Coverage" placeholder="e.g., Nationwide, Midwest, Indiana only..."></textarea></div>
+      <div class="form-grid" style="margin-top:18px;">
+        <div><label>Certifications</label><input class="input" name="Certifications" placeholder="e.g., SB, WOSB, SDVOSB, HUBZone"></div>
+        <div><label>Years in Business</label><input class="input" name="Years in Business"></div>
+      </div>
+
+      <h2 class="form-section-title" style="margin-top:28px;">🛡️ Compliance &amp; Documents</h2>
+      <div class="divider"></div>
+      <div class="form-grid">
+        <div><label>W-9 Available?</label><select name="W-9 Available"><option>Select...</option><option>Yes</option><option>No</option></select></div>
+        <div><label>Insurance Certificate Available?</label><select name="Insurance Certificate Available"><option>Select...</option><option>Yes</option><option>No</option></select></div>
+      </div>
+      <div style="margin-top:18px;"><label>Additional Notes</label><textarea name="Additional Notes"></textarea></div>
+      <div style="margin-top:24px;"><button class="btn-secondary" type="submit">✈ Submit Registration</button></div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Bluecrest Federal Support LLC logo">
+      <p>SDVOSB (Certification Pending) providing administrative, facilities, logistics &amp; support services across Indiana and the Midwest.</p>
+      <div class="small-badge">○ SDVOSB (Certification Pending)</div>
+    </div>
+    <div>
+      <h3 class="footer-title">Navigation</h3>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="founder.html">Founder</a>
+        <a href="services.html">Services</a>
+        <a href="vendors.html">Vendors</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="assets/Bluecrest_Federal_Support_Capability_Statement.pdf">↓ Capability Statement</a>
+      </div>
+    </div>
+    <div>
+      <h3 class="footer-title">Contact Us</h3>
+      <ul class="footer-contact">
+        <li>📍 Linton, Indiana</li>
+        <li>📞 (812) 512-1760</li>
+        <li>✉️ operations@bluecrestfederalsupport.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <div>© <span data-year></span> Bluecrest Federal Support LLC. All rights reserved.</div>
+    <div>Proudly Veteran-Led.</div>
+  </div>
+</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
