@@ -260,20 +260,30 @@ textarea { min-height: 150px; resize: vertical; }
   .brand img { height: 42px; }
 }
 .footer-certifications {
+    max-width: 900px;
+    margin: 32px auto 0;
+    padding: 22px 20px 18px;
+    border-top: 1px solid rgba(255,255,255,0.12);
     text-align: center;
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-.footer-certifications img {
-    height: 55px;
-    margin: 0 10px;
-    vertical-align: middle;
+.footer-certification-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+}
+
+.footer-certification-badges img {
+    height: 72px;
+    width: auto;
+    display: block;
 }
 
 .footer-certifications p {
-    margin-top: 10px;
-    font-size: 0.9rem;
-    color: #bdbdbd;
+    margin: 0;
+    font-size: 0.95rem;
+    color: rgba(255,255,255,0.82);
 }
