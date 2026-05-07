@@ -262,7 +262,7 @@ textarea { min-height: 150px; resize: vertical; }
 .footer-certifications {
     max-width: 900px;
     margin: 32px auto 0;
-    padding: 22px 20px 18px;
+    padding: 24px 20px 18px;
     border-top: 1px solid rgba(255,255,255,0.12);
     text-align: center;
 }
@@ -271,19 +271,22 @@ textarea { min-height: 150px; resize: vertical; }
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 20px;
     flex-wrap: wrap;
     margin-bottom: 14px;
 }
 
 .footer-certification-badges img {
-    height: 72px;
+    height: 80px;
     width: auto;
+    object-fit: contain;
     display: block;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
 }
 
 .footer-certifications p {
     margin: 0;
     font-size: 0.95rem;
+    line-height: 1.5;
     color: rgba(255,255,255,0.82);
 }
