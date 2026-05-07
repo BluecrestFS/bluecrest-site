@@ -259,34 +259,3 @@ textarea { min-height: 150px; resize: vertical; }
   .quote-btn { padding: 12px 16px; }
   .brand img { height: 42px; }
 }
-.footer-certifications {
-    max-width: 900px;
-    margin: 32px auto 0;
-    padding: 24px 20px 18px;
-    border-top: 1px solid rgba(255,255,255,0.12);
-    text-align: center;
-}
-
-.footer-certification-badges {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 14px;
-}
-
-.footer-certification-badges img {
-    height: 80px;
-    width: auto;
-    object-fit: contain;
-    display: block;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
-}
-
-.footer-certifications p {
-    margin: 0;
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: rgba(255,255,255,0.82);
-}
