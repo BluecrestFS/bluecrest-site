@@ -362,3 +362,10 @@ details[open] .job-toggle svg { transform: rotate(180deg); }
   .job-cols { grid-template-columns: 1fr; gap: 18px; }
 }
 .job-body .job-apply { justify-self: start; margin-top: 4px; }
+
+/* ---------- Careers: how-to-apply inside each listing ---------- */
+.job-howto { background: #f2f5fb; border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
+.job-howto p { margin: 0 0 10px; color: var(--text); }
+.careers-notes { max-width: 920px; text-align: center; }
+.careers-notes p { margin: 0 0 10px; }
+.job-howto .text-link { overflow-wrap: normal; }
